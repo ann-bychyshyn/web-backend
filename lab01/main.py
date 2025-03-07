@@ -13,7 +13,7 @@ sor_l = sorted(leftli)
 sor_r = sorted(rightli)
 
 dis = 0
-for i in range(len(sor_l)):
+for i in range(len(sor_l)-1):
     dif = abs(sor_l[i]-sor_r[i])
     dis += dif
 
